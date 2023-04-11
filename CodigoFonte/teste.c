@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-	printf("Outro programa C");
-
+	printf("Programando em C!");
 	return 0;
 }
