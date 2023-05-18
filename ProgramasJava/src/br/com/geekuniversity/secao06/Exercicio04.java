@@ -22,11 +22,11 @@ public class Exercicio04 {
 			peso_ideal = (float)(72.7 * altura) - 58;//cast
 			System.out.printf("Seu pedo ideal é %.2f", peso_ideal);
 		}
-		if(sexo == 'f') {
+		else if(sexo == 'f') {
 			peso_ideal = (float)(62.1 * altura) - (float)44.7;
 			System.out.printf("Seu peso ideal é %.2f", peso_ideal);
 		}
-		if(sexo != 'm' && sexo != 'f') {
+		else if(sexo != 'm' && sexo != 'f') {
 			System.out.println("Sexo não reconhecido.");
 			peso_ideal = 0;
 		}
